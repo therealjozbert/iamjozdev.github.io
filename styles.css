@@ -1,0 +1,573 @@
+ 
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,body{
+    height: 100vh;
+    width: 100%;
+   
+  }
+
+  @font-face {
+    font-family: sfc;
+    src: url(Font/CircleAmolensRegular.ttf);
+  }
+
+  @font-face {
+    font-family: pfc;
+    src: url(Font/Product\ Sans\ Bold.ttf);
+  }
+
+
+  @font-face {
+    font-family: psc;
+    src: url(Font/SFWonderComic-Italic.ttf);
+  }
+
+  @font-face {
+    font-family: ccc;
+    src: url(Font/CartisBeautyfulRegular.ttf);
+  }
+
+
+  @font-face {
+    font-family: cbc;
+    src: url(Font/Product\ Sans\ Regular.ttf);
+  }
+
+.navbar{
+	background-color: whitesmoke;
+	display: flex;
+align-items: center;
+justify-content:  center;
+	width: 100%;
+	height: 10vh;
+gap: 20px;
+
+}
+
+.navbar a{
+	display: flex;
+	align-items: center;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	font-size: 1rem;
+	font-family: psc;
+}
+
+#logo{
+position: absolute;
+left: 5%;
+color: rgb(0, 0, 0);
+font-size: 1.5rem;
+font-family: sfc;
+letter-spacing: 5px;
+}
+
+i{
+	position: relative;
+	left: 15%;
+	gap: 2vh;
+	color: rgb(0, 0, 0);
+}
+
+#CMB{
+	position: relative;
+	width: 100px;
+	left: 15%;
+	height: 35px;
+	color: white;
+	background-color: black;
+	border-radius: 5px;
+}
+
+.main1{
+	width: 100%;
+	height: 100vh;
+	background-color: #ffffff;
+position: relative;
+}
+
+svg{
+	width: 40%;
+	position: absolute;
+	left: 58%;
+	top: 12%;
+}
+
+#girlimg{
+	width:35%;
+	position: absolute;
+	left: 65%;
+	top: 15%;
+}
+
+#girlh1{
+position: absolute;
+top: 28%;
+left: 16.5%;
+font-size:4rem;
+font-family: ccc;
+color: #000000ac;
+white-space: nowrap;
+letter-spacing: 6px;
+font-weight: 600;
+font-style: italic;
+}
+
+#girl2h1{
+	position: absolute;
+	top:14%;
+	left: 5%;
+	font-size:6rem;
+	font-family: ccc;
+	color: #0000001e;
+	white-space: nowrap;
+	font-weight: 200;
+	font-style: italic;
+	}
+
+
+
+#girl1h1{
+	position: absolute;
+	top: 42%;
+	left: 16%;
+	font-size:3rem;
+	font-family: ccc;
+	font-style: italic;
+	color: #ffb949cc;
+	white-space: nowrap;
+	letter-spacing: 2px;
+	font-weight: 900;
+	}
+
+
+	#girl3h1{
+		position: absolute;
+		top: 54%;
+		left: 16%;
+		font-size:1rem;
+		font-family: ccc;
+		font-style: italic;
+		color: #00000096;
+		width: 45%;
+		letter-spacing: 2px;
+		font-weight: 900;
+		}
+
+
+
+
+#blobdesign{
+	width: 15%;
+	position: absolute;
+	left: -5%;
+	top: 60%;
+	rotate: 60deg;
+}
+
+#blobdesign1{
+	width: 15%;
+	position: absolute;
+	left: -5%;
+	top: 40%;
+	rotate: 60deg;
+}
+
+
+
+#email{
+	position: absolute;
+		top: 70%;
+		left: 16%;
+		font-size:1rem;
+		font-family: ccc;
+		font-style: oblique;
+		color: #000000;
+		width: 45%;
+		letter-spacing: 2px;
+		font-weight: 900;
+text-decoration: none;
+}
+
+#email1{
+	position: absolute;
+		top: 74%;
+		left: 16%;
+		font-size:1rem;
+		font-family: psc;
+		color: #00000099;
+		width: 45%;
+		letter-spacing: 2px;
+		font-weight: 900;
+text-decoration: none;
+}
+
+#cvbutton{
+	position: absolute;
+		top: 80%;
+		left: 16%;
+		height:7vh;
+		width: 10%;
+		font-size: 15px;
+		color: white;
+		font-family: serif;
+		font-weight: 900;
+		letter-spacing: 2px;
+		background-color:#ffb949;
+		border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main2{
+	height: 100vh;
+	width: 100%;
+
+	position: relative;
+}
+
+#svg1{
+	width: 30%;
+	position: absolute;
+	left:6%;
+	top: 20%;
+}
+
+
+
+#girlsittingimg{
+	width: 30%;
+	position: absolute;
+	top: 12%;
+	left: 10%;
+	rotate: -5deg;
+}
+
+
+#hithere{
+	color: rgb(0, 0, 0);
+	font-family: psc;
+	font-style: italic;
+	letter-spacing: 5px;
+	position: absolute;
+	top: 7%;
+	font-size: 3rem;
+	left: 6%;
+	line-height: 10vh;
+	font-weight: 100;
+}
+
+
+#blob{
+	position: absolute;
+	width: 30%;
+	left: 30%;
+	top: -30%;
+}
+
+#aboutline{
+	position: absolute;
+	width: 13%;
+	left: 50.5%;
+	top: 36%;
+	rotate: 90deg;
+}
+
+#h1aboutme{
+	position: absolute;
+	width: 10%;
+	left: 53%;
+	top: 25%;
+	rotate: -90deg;
+	font-size: 18px;
+	font-weight: 400;
+	font-family: ccc;
+}
+
+
+#textabout{
+	position: absolute;
+	left: 60%;
+	top: 25%;
+font-size: 3rem;
+font-family: pfc;
+color: #333333bf;
+}
+
+
+
+#textabout1{
+	position: absolute;
+	left: 60%;
+	top: 38%;
+font-size: 1rem;
+font-family: cbc;
+padding: 60px 60px 20px 10px
+
+}
+
+#textabout4{
+	position: absolute;
+	left: 60.5%;
+	top: 70%;
+font-size: 1.5rem;
+font-family: cbc;
+color: #333333c0;
+}
+
+
+#sml{
+	position: absolute;
+	left: 60.5%;
+	top: 75%;
+	width: 10%;
+}
+
+
+
+
+
+.main3{
+	height: 100vh;
+	width: 100%;
+	position: relative;
+	
+}
+
+
+
+#myskillsline{
+	position: absolute;
+	width: 13%;
+	left: 10.5%;
+	top: 15%;
+	rotate: 90deg;
+}
+
+
+#h1myskills{
+
+	position: absolute;
+	width: 10%;
+	left: 13%;
+	top: 5%;
+	rotate: -90deg;
+	font-size: 18px;
+	font-weight: 400;
+	font-family: ccc;
+
+}
+
+
+#skillstext{
+	position: absolute;
+	left: 20%;
+	top: 5%;
+font-size: 3rem;
+font-family: pfc;
+color: #333333bf;
+
+}
+
+
+#skillstext1{
+	position: absolute;
+	width: 40%;
+	left: 20%;
+	top: 15%;
+font-size: 1rem;
+font-family: cbc;
+padding: 60px 60px 20px 10px;
+}
+
+
+.progress-bar {
+	width: 25%;
+	background-color: #f1c40f; /* Yellow color */
+	height: 30px;
+	margin: 20px auto;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #333;
+	top: 40%;
+	position: absolute;
+	left: 20%;
+	font-family: cbc;
+}
+
+.progress-bar1 {
+	width: 30%;
+	background-color: #f1c40f; /* Yellow color */
+	height: 30px;
+	margin: 20px auto;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #333;
+	top: 50%;
+	position: absolute;
+	left: 20%;
+	font-family: cbc;
+}
+
+
+
+.progress-bar2 {
+	width: 23%;
+	background-color: #f1c40f; /* Yellow color */
+	height: 30px;
+	margin: 20px auto;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #333;
+	top: 60%;
+	position: absolute;
+	left: 20%;
+	font-family: cbc;
+}
+.progress-bar3 {
+	width: 30%;
+	background-color: #f1c40f; /* Yellow color */
+	height: 30px;
+	margin: 20px auto;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #333;
+	top: 50%;
+	position: absolute;
+	left: 20%;
+	font-family: cbc;
+}
+
+#blob3{
+	width: 50%;
+	position: absolute;
+	left: 50%;
+	top: 0%;
+	color: rgba(255, 255, 255, 0.415);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    position: absolute;
+    left: 60%;
+    height: 30vh;
+    width: 15%;
+    top: 10%;
+	background: rgba(239, 220, 14, 0.903);
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 4px );
+	-webkit-backdrop-filter: blur( 4px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+	font-family: sfc;
+	color: #333;
+	font-size: 1.5rem;
+}
+
+.card1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    position: absolute;
+    left: 77%;
+    height: 30vh;
+    width: 15%;
+    top: 10%;
+	background: rgba(239, 220, 14, 0.903);
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 4px );
+	-webkit-backdrop-filter: blur( 4px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+	font-family: sfc;
+	color: #333;
+	font-size: 1.5rem;
+}
+
+
+
+.card2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    position: absolute;
+    left: 60%;
+    height: 30vh;
+    width: 15%;
+    top: 50%;
+	background: rgba(239, 220, 14, 0.903);
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 4px );
+	-webkit-backdrop-filter: blur( 4px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+	font-family: sfc;
+	color: #333;
+	font-size: 1.5rem;
+}
+
+
+
+
+.card3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    position: absolute;
+    left: 78%;
+    height: 30vh;
+    width: 15%;
+    top: 50%;
+	background: rgba(239, 220, 14, 0.903);
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 4px );
+	-webkit-backdrop-filter: blur( 4px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+	font-family: sfc;
+	color: #333;
+	font-size: 1.5rem;
+}
+
+
